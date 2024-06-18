@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Responsivo</title>
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <h1>BANCO DE QUESTÕES - INFORMÁTICA</h1>
+        <nav>
+            <ul>
+                <li><a href="#">início</a></li>
+                <li><a href="../sign-up-screen/index.html" target="_blank">cadastro</a></li>
+                <li><a href="../login-screen/index.html" target="_blank">login</a></li>
+                <li><a href="#">cadastrar questões</a></li>
+                <li><a href="index.html">consultar</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <h2>Questões por disciplina:</h2>
+                <select name="disciplina" id="disciplina">
+                    <option value="">escolha uma disciplina</option>
+                    <option value="informatica-basica">Informática Básica</option>
+                    <option value="logica-programacao">Lógica de Programação</option>
+                    <option value="arquitetura">Arquitetura e Manutenção de Computadores</option>
+                    <option value="html-css">HTML/CSS</option>
+                    <option value="planejamento-de-carreira">Planejamento de Carreira</option>
+                    <option value="sistemas-operacionais">Sistemas Operacionais</option>
+                    <option value="poo">Programação Orientada a Objetos</option>
+                    <option value="programacao-web">Programação Web</option>
+                    <option value="robotica">Noções de Robótica</option>
+                    <option value="startups-1">Gestão de Startups I</option>
+                    <option value="redes">Redes de Computadores</option>
+                    <option value="design">Design Gráfico</option>
+                    <option value="wordpress">Gerenciador de Conteúdo</option>
+                    <option value="db">Banco de Dados</option>
+                    <option value="startups-2">Gestão de Startups II</option>
+                    <option value="lab-software">Laboratório Software</option>
+                    <option value="lab-hardware">Laboratório Hardware</option>
+                    <option value="projetos">Projeto Integrador</option>
+                    <option value="startups-3">Gestão de Startups III</option>
+                </select>
+
+                <h2>Nível de dificuldade:</h2>
+                <select name="nivel" id="nivel">
+                    <option value="">escolha um nível</option>
+                    <option value="muito-facil">muito fácil</option>
+                    <option value="facil">fácil</option>
+                    <option value="medio">médio</option>
+                    <option value="dificil">díficil</option>
+                    <option value="muito-dificil">muito difícil</option>
+                </select>
+       
+                <h2>ano do vestibular:</h2>
+                <select name="ano" id="ano">
+                    <option value="">escolha um ano</option>
+                    <option value="todos">todos</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+       
+                
+            </form>
+            <button type="button" id="pesquisa" class="pesquisa">PESQUISAR</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EEEP PJBL. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
